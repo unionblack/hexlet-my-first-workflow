@@ -6,6 +6,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: my-step
-        action: make say-hello
+        run: echo make say-hello
 
 
